@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Nav-container{
+    display: flex;
+    justify-content: space-evenly;
+   
+    /* align-items: center; */
+    height: 100px;
+    /* background-color: #1F4E5A; */
+    background-color: black; 
+    color:white;
+   
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    
+    
+}
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.copyright-socialmedia{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+    /* align-items: center; */
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.icons-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo{
+    width: 150px;
+    height:150px;
+}
+
+.name{
+    font-size: 30px;
+    color: white;
+}
+
+.github{
+    color: white;
+    width: 50px;
+
+}
+
+.linkedin{
+    color: white;
+    width: 50px;
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:780px){
+
+    .copyright-socialmedia{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        
+    }
+    
+  
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        /* align-items:; */
+    }
+
+    .email{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-logo{
+        display: flex;
+        flex-direction: column;
+        /* position:absolute; */
+    }
+    
+.logo{
+    width: 150px;
+    height:150px;
+   
+    /* position:relative; */
+    /* max-width:100%;
+    max-height:100%;
+    margin-top:-50%;
+    margin-left:-50%; */
+    
+}
+    .name{
+        font-size: 10px;
+        color: white;
+    } 
+
+    .Nav-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* align-items: center; */
+        height: 300px;
+        /* background-color: #1F4E5A; */
+        background-color: black; 
+        color:white
+        }
+
+  
+}
+
+
+
+

@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .navbar{
+    position:sticky;
+    top: 0;
+    z-index: 999;
+} */
+
+.scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(41, 173, 216);
+    
+  }
+
+.NavContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    /* background-color: #1F4E5A; */
+    background-color: #1D1A2D; 
+    color:white;
+    
+    
+}
+
+/* 
+.company-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+   
+  
+} */
+
+.logo{
+    width: 100px;
+    height:100px;
+    padding:40px;
+   position:center;
+   
+   
+
+}
+
+/* .name{
+    color: white;
+
+   
+} */
+
+.active{
+    border-bottom: 1px solid white;
+}
+
+
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    width:75%;
+    list-style: none;
+}
+
+.home,
+.employers,
+.pricing,
+.openpositions{
+    text-decoration: none;
+    color:gray;
+    text-align: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    
+
+}
+
+
+.login{
+    text-decoration: none;
+    color:white;
+    text-align: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    
+
+}
+.login:hover{
+    background-color: #fd3c66;
+}
+
+
+
+.login-ul{
+    display: flex;
+    justify-content: flex-end;
+    width:5%;
+    list-style: none;
+}
+
+
+
+ .login {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+ /* .login :hover {
+     color: rgb(22, 186, 201);
+     background-color: white;
+    
+
+ } */
+
+
+
+
+
+.mobile-menu-icon{
+    display: none;
+}
+
+@media screen and (max-width:780px){
+    .logo{
+        display: flex;
+        position:absolute;
+        /* top:15px; */
+        left:35px;
+    }
+    
+    .nav-links{
+        display: none;
+    }
+    .nav-links-mobile{
+        position:absolute;
+        display: block;
+        list-style: none;
+        background-color: black;
+        left: 0;
+        top:0;
+        transition: all 0.5s ease-out;
+        width: 50%;
+        height: 100%;
+
+    }
+    .home,
+    .employers,
+    .pricing,
+    .openpositions{
+        color: white;
+        text-align: center;
+        padding: 30px;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+    .login{
+        display: none;
+        /* border:none; */
+    }
+    .name{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        background-color: black;
+        border: none;
+        outline: none;
+        top:15px;
+        right:25px;
+    }
+}

@@ -1,0 +1,143 @@
+
+.for-employers{
+    color: lightcoral;
+    padding: 20px;
+}
+.employers-bg-img{
+    background-image: url("../Components/images/office-bg-img.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
+
+
+
+
+
+.bg-heading{
+color: white;
+  font-size: 80px;
+  text-align: center;
+  font-weight:bolder;
+  font-size: 36px;
+  /* background-color: #4DA27F; */
+  padding-left: 50px;
+  padding-right: 50px;
+
+
+}
+
+.contactus{
+    color: tomato;
+    padding-top: 50px;
+
+}
+
+.share{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #20222E;
+    color: white; */
+    align-items: center;
+}
+.form-label{
+    /* text-align: left; */
+    float:left;
+    padding-top: 10px;
+}
+.form-control{
+    width: 400px;
+    height: 50px;
+    padding:10px;
+    /* background-color:#1F222E; */
+    
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+.middle-h3{
+    
+    padding-right:180px;
+    padding-bottom: 20px;
+}
+form-check-label{
+    padding-right: 280px;
+    padding-bottom: 20px;
+   
+}
+
+.form-check-input{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+.form-div{
+    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+}
+
+
+
+.form-container{
+    /* background-image: linear-gradient(to right bottom, #121227, #1a162b, #22192f, #2b1c33, #331f36); */
+}
+
+
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 5px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover.color-10 {
+    background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+
+
+
