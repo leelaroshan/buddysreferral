@@ -2,6 +2,9 @@ import React from 'react';
 import './Home.css';
 
 
+import { AiFillPlayCircle} from "react-icons/ai";
+
+
 export default function Home() {
     return (
         <div id="home">
@@ -14,6 +17,8 @@ export default function Home() {
                  –– <strong style={{color:"#FE275C"}}>BR</strong> finds and schedules candidates you actually want to talk to, at a fraction of the cost.
              </h3>
              <h2 className="numer">Join the 100+ companies relying on BR to find the best talent</h2>
+
+             <AiFillPlayCircle className="play-btn"/><span className="video-span">See Intro Video</span>
 
 
              </div>

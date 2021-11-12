@@ -1,4 +1,4 @@
-import React ,{ useState} from 'react';
+import React ,{ useState, useEffect} from 'react';
 import './App.css';
 
 import Navbar from './Components/Navbar';
@@ -12,13 +12,6 @@ import Stickynavbar from './Components/Stickynavbar';
 
 import { Switch ,Route } from 'react-router-dom';
 
-// import Scrollspy from 'react-scrollspy';
-
-
-// import { StickyContainer, Sticky } from 'react-sticky';
-
-
-
 import Footer from './Components/Footer';
 
 // import { Route, Switch } from "react-router-dom"
@@ -27,25 +20,60 @@ import Footer from './Components/Footer';
 function App() {
 
      const [showmodal, setShowmodal] = useState(false);
+     const [showButton, setShowButton] = useState(false);
     
+   
+
+     const togglePopup = () => {
+       setShowmodal(!showmodal);
+     };
+
+
+  // This function will scroll the window to the top 
+   const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // for smoothly scrolling
+    });
+    };
+     
+
+    useEffect(() => {
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 300) {
+          setShowButton(true);
+        } else {
+          setShowButton(false);
+        }
+      });
+    }, []);
+
+
+
+
 
 
   return (
     <div className="App">
     
         <header>
-      <Stickynavbar  showmodal={showmodal} setShowmodal={setShowmodal} />
+      <Stickynavbar  showmodal={showmodal} setShowmodal={setShowmodal}  togglePopup={togglePopup}/>
 
       </header>
       <Home />
       <Employers />
       <Pricing />
-      <Openpositions />
+      {/* <Openpositions /> */}
+      
 
-      <Switch> 
-      <Route path='/login' Component={Login} />
-      </Switch>
-      {/* <Login /> */}
+      {showmodal && <Login showmodal={showmodal} setShowmodal={setShowmodal}  togglePopup={togglePopup} />} 
+     
+      {showButton && (
+        <button onClick={scrollToTop} className="back-to-top">
+          &#8679;
+        </button>
+      )}
+
       
      <footer>
       <Footer />
