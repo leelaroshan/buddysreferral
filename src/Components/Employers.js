@@ -26,7 +26,7 @@ export default function Employers() {
             <h1 className="employers-h1">Are you looking to hire right now?</h1>
             <div className="employers-bg-img">
                 <h1 className="bg-heading">We help you hire best passive job seekers, 
-                    voched by top software enginners</h1>
+                    vouched by top software engineers</h1>
               {/* <img src={bgimg} className="bg-img" alt="office image"></img> */}
             </div>
           <div className="form-container">

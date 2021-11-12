@@ -59,7 +59,7 @@ export default function Stickynavbar({showmodal, setShowmodal, togglePopup}) {
           </Link>
           
           <Link  smooth className="employers" activeStyle={{borderBottom:"1px solid white"}} to="#employers">
-           <li>employers</li>
+           <li>Employers</li>
           </Link>
           
           <Link smooth className="pricing"   activeClass="active" to="#pricing">
@@ -68,7 +68,7 @@ export default function Stickynavbar({showmodal, setShowmodal, togglePopup}) {
 
 
           <Link smooth className="openpositions"  activeClass="active"  to="#openpositions">
-            <li>open positions</li>
+            <li>Open positions</li>
           </Link>
          
         

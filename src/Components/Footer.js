@@ -29,7 +29,7 @@ export default function Footer() {
         <div className="footer-logo">  
          <img src={logo}
         alt="logo" className="logo"></img>
-        <h3 className="name">Buddys Referral</h3>
+        <h3 className="name">Buddy's Referral</h3>
         </div>
      
         <div className="copyright-socialmedia">
@@ -50,7 +50,7 @@ export default function Footer() {
            
         <div className="email"> 
    
-        <h4>We'r always happy to help.</h4>
+        <h4>We are always happy to help.</h4>
         <p>ask@br.com</p>
         </div>
 
