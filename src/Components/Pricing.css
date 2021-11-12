@@ -1,13 +1,16 @@
 
 .pricing-main{
-    /* background-color: #271E34; */
+    
     color: white;
+    padding: 30px; 
+}
+
     /* display: flex;
     flex-direction: column;
     justify-content: space-between; */
-    padding: 30px; 
+   /* background-color: #271E34; */
     /* background-image: linear-gradient(to right bottom, #121227, #1a162b, #22192f, #2b1c33, #331f36); */
-}
+
 .pricing-h1{
     padding: 30px;
 }
@@ -18,8 +21,7 @@
     border: orangered;
     background-color: orange;
     text-align: center;
-
-  margin-left: auto;
+   margin-left: auto;
   margin-right: auto;
   display: table;
    
@@ -28,9 +30,7 @@
 }
 
 .pricing-heading{
-    background-color: #3CCF91;
-    /* background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B); */
-  
+    background-color: #101225;
     color:white;
    padding-top: 20px;
     padding-bottom: 30px;
@@ -40,10 +40,7 @@
 
 .pricing-content{
     background-color:white;
-    /* width: 500px;
-    height: 400px; */
-    /* color:rgb(79, 235, 214); */
-    color: #3CCF91;
+    color: tomato;
    padding: 20px;
 
 }

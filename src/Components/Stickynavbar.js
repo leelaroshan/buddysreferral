@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 import { NavHashLink as Link} from 'react-router-hash-link';
 import  logo  from "../Components/images/b.png";
 
@@ -11,7 +9,7 @@ import './Navbar.css';
 
 
 
-export default function Stickynavbar({showmodal, setShowmodal}) {
+export default function Stickynavbar({showmodal, setShowmodal, togglePopup}) {
 
     const [isMobile, setIsMobile] = useState(false);
 
@@ -38,16 +36,11 @@ export default function Stickynavbar({showmodal, setShowmodal}) {
       }
 
 
-      const togglePopup = () => {
-        setShowmodal(!showmodal);
-       }
-  
-
 
 
 
     return (
-    //   < className="navbar">   
+   
         <div className={navbarClasses.join(" ")}>
 
         {/* <div className="company-logo">  */}
@@ -84,8 +77,8 @@ export default function Stickynavbar({showmodal, setShowmodal}) {
 
         
          <ul className=  "login-ul" >
-         <Link className="login" to="/login"> 
-         <li>Login</li></Link>
+         <Link className="login" to="/login" onClick={togglePopup}> 
+         <li>Contact</li></Link>
         </ul>
 
 

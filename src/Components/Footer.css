@@ -11,7 +11,7 @@
     /* align-items: center; */
     height: 100px;
     /* background-color: #1F4E5A; */
-    background-color: black; 
+    background-color: #1D1A2D; 
     color:white;
    
     margin: 0 auto;
@@ -86,7 +86,7 @@
 
 
 
-@media screen and (max-width:780px){
+@media screen and (max-width:1000px){
 
     .copyright-socialmedia{
         display: flex;
