@@ -1,20 +1,17 @@
 import React ,{ useState, useEffect} from 'react';
 import './App.css';
-
-import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Employers from './Components/Employers';
 import Pricing from './Components/Pricing';
-import Openpositions from './Components/Openpositions';
+// import Openpositions from './Components/Openpositions';
 
 import Login from './Components/Login';
 import Stickynavbar from './Components/Stickynavbar';
 
-import { Switch ,Route } from 'react-router-dom';
+
 
 import Footer from './Components/Footer';
 
-// import { Route, Switch } from "react-router-dom"
 
 
 function App() {

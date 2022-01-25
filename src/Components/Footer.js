@@ -14,9 +14,9 @@ import {
     TiSocialLinkedinCircular
     
   } from "react-icons/ti";
-   import {BsLinkedin} from "react-icons/bs";
   
-  import { AiOutlineGithub, AiFillTwitterCircle} from "react-icons/ai";
+  
+  // import { AiOutlineGithub, AiFillTwitterCircle} from "react-icons/ai";
 
 
 
